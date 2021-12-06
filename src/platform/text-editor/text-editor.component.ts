@@ -1,6 +1,7 @@
 import { Component, Input, AfterViewInit, ViewChild, ElementRef, forwardRef, NgZone } from '@angular/core';
 import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
-import * as EasyMDE from 'easymde';
+// @ts-ignore
+import EasyMDE from 'easymde';
 // get access to the marked class under easymde
 import * as marked from 'marked';
 
